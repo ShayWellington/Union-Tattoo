@@ -13,7 +13,7 @@ header ::after {
   clear: both; }
 
 .logo {
-  width: 180px;
+  width: 200px;
   float: left;
   padding-top: 40px; }
 
@@ -27,7 +27,7 @@ nav {
     list-style: none; }
     nav ul li {
       display: inline-block;
-      margin-left: 140px;
+      margin-left: 90px;
       padding-top: 80px; }
       nav ul li a {
         font-style: bold;
@@ -45,18 +45,140 @@ body {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 40px; }
 
+h2 {
+  font-size: 30px; }
+
+h3 {
+  color: #cbae86;
+  margin: 0 40px 0 40px; }
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0 40px 20px 40px; }
+
 .homeimg1 {
-  width: 100%; }
+  width: 90%;
+  margin-bottom: 40px; }
 
 .homeimg2 {
-  width: 100%; }
+  width: 40%;
+  float: left; }
 
-.footerpara {
+.aboutpara1 {
+  font-size: 20px;
+  text-align: right;
+  padding-left: 190px;
+  margin: 0 50px 70px 0; }
+
+.aboutpara2 {
+  margin: 0 180px 50px 70px; }
+
+.aboutpara3 {
+  text-align: right;
+  margin: 0 50px 70px 0; }
+
+.aboutpara4 {
+  margin: 0 100px 50px 40px; }
+
+.aboutpara5 {
+  text-align: center;
+  margin: 0 120px; }
+
+.about-sectionheading1 {
+  margin-left: 40px;
+  margin-bottom: 30px; }
+
+.about-sectionheading2 {
+  margin: 0 50px 30px 40px;
+  text-align: right; }
+
+.artist-desc {
+  display: none; }
+
+.artists-img-1 {
+  width: 60%; }
+
+.artists-img-1 ::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.artists-img-2 {
+  width: 60%; }
+
+.artists-img-2 ::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.artists-h1 {
+  text-align: right; }
+
+.artists-h2 {
+  text-align: left; }
+
+.booking-img {
+  display: none; }
+
+.booking-h2 {
+  margin: 0 0 30px 25px; }
+
+.form-name {
+  margin-left: 40px;
+  color: #cbae86; }
+
+.form-name-text {
+  width: 80%;
+  padding: 10px;
+  margin: 0 0 10px 40px;
+  background-color: #2B2B2B;
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.form-phone {
+  margin-left: 40px;
+  color: #cbae86; }
+
+.form-phone-text {
+  width: 80%;
+  padding: 10px;
+  margin: 0 0 10px 40px;
+  background-color: #2B2B2B;
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.form-message {
+  margin-left: 40px;
+  color: #cbae86; }
+
+.form-message-text {
+  width: 80%;
+  padding: 10px;
+  margin: 0 0 10px 40px;
+  background-color: #2B2B2B;
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+footer {
   color: #333;
   text-align: center;
   margin: 30px 0 30px 0; }
+
+@media screen and (min-width: 600px) {
+  .aboutpara1 {
+    width: 30%;
+    text-align: right; }
+
+  .homeimg1 {
+    width: 40%;
+    margin-left: 10%;
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
