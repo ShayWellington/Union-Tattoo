@@ -177,7 +177,6 @@ p {
 .form-name {
   margin-left: 40px;
   color: #cbae86
-
 }
 
 .form-name-text {
@@ -220,6 +219,29 @@ p {
   box-sizing: border-box;
 }
 
+.btn {
+  background-color: #cbae86;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  margin:  0 auto;
+  margin-bottom: 50px;
+}
+
+// contact classes
+
+.contact-img-1 {
+  display: none;
+}
+
+.contact-para {
+  margin-bottom: 0px;
+}
 
 // footer
 
@@ -227,6 +249,7 @@ footer {
   color: #333;
   text-align: center;
   margin: 30px 0 30px 0;
+  display: none;
 }
 
 @media screen and (min-width: 600px) {
