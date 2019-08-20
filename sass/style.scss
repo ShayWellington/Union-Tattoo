@@ -133,8 +133,8 @@ p {
 }
 
 .artists-img-1 {
-  // position: absolute;
-  // float: right;
+  position: absolute;
+  float: right;
   width: 60%;
 }
 
@@ -145,8 +145,8 @@ p {
 }
 
 .artists-img-2 {
-  // position: absolute;
-  // float: left;
+  position: absolute;
+  float: left;
   width: 60%;
 }
 
@@ -264,5 +264,48 @@ footer {
     margin-left: 10%;
     float: left;
   }
+
+  // nav bar
+  header {
+    margin-bottom: 70px;
+  }
+
+  header ::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .logo {
+    width: 200px;
+    float: left;
+    padding-top: 40px;
+  }
+
+  .topnav {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  nav {
+    float: right;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 90px;
+        padding-top: 80px;
+         a {
+           font-style: bold;
+           font-size: 22px;
+           color: white;
+         }
+      }
+    }
+  }
+
+   .active {
+     text-decoration: underline;
+   }
 
 }
