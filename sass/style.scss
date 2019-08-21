@@ -113,7 +113,7 @@ p {
 
 .aboutpara5 {
   text-align: center;
-  margin: 0 120px;
+  margin: 0px 120px 40px 120px;;
 }
 
 .about-sectionheading1 {
@@ -128,40 +128,57 @@ p {
 
 // artists classes
 
+.craigylee-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+}
+
+.sholtocarr-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+}
+
+.stephmaree-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+}
+
+.zoeemily-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+}
+
 .artist-desc {
   display: none;
 }
 
 .artists-img-1 {
+  width: 70%;
+  left: 30%;
   position: absolute;
-  float: right;
-  width: 60%;
-}
-
-.artists-img-1 ::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .artists-img-2 {
+  width: 70%;
   position: absolute;
-  float: left;
-  width: 60%;
-}
-
-.artists-img-2 ::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .artists-h1{
   text-align: right;
+  z-index: 2;
 }
 
 .artists-h2 {
   text-align: left;
+  z-index: 2;
 }
 
 // booking classes
@@ -229,8 +246,11 @@ p {
   text-transform: uppercase;
   color: white;
   display: block;
-  margin:  0 auto;
-  margin-bottom: 50px;
+  margin:  0 auto 30px auto;
+}
+
+.artist-btn {
+  margin-top: 360px;
 }
 
 // contact classes
@@ -264,48 +284,4 @@ footer {
     margin-left: 10%;
     float: left;
   }
-
-  // nav bar
-  header {
-    margin-bottom: 70px;
-  }
-
-  header ::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-
-  .logo {
-    width: 200px;
-    float: left;
-    padding-top: 40px;
-  }
-
-  .topnav {
-      width: 80%;
-      margin: 0 auto;
-  }
-
-  nav {
-    float: right;
-    ul {
-      list-style: none;
-      li {
-        display: inline-block;
-        margin-left: 90px;
-        padding-top: 80px;
-         a {
-           font-style: bold;
-           font-size: 22px;
-           color: white;
-         }
-      }
-    }
-  }
-
-   .active {
-     text-decoration: underline;
-   }
-
 }

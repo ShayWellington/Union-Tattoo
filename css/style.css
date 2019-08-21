@@ -86,7 +86,7 @@ p {
 
 .aboutpara5 {
   text-align: center;
-  margin: 0 120px; }
+  margin: 0px 120px 40px 120px; }
 
 .about-sectionheading1 {
   margin-left: 40px;
@@ -96,30 +96,49 @@ p {
   margin: 0 50px 30px 40px;
   text-align: right; }
 
+.craigylee-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%; }
+
+.sholtocarr-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%; }
+
+.stephmaree-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%; }
+
+.zoeemily-section {
+  border: solid 1px white;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%; }
+
 .artist-desc {
   display: none; }
 
 .artists-img-1 {
-  width: 60%; }
-
-.artists-img-1 ::after {
-  content: '';
-  display: table;
-  clear: both; }
+  width: 70%;
+  left: 30%;
+  position: absolute; }
 
 .artists-img-2 {
-  width: 60%; }
-
-.artists-img-2 ::after {
-  content: '';
-  display: table;
-  clear: both; }
+  width: 70%;
+  position: absolute; }
 
 .artists-h1 {
-  text-align: right; }
+  text-align: right;
+  z-index: 2; }
 
 .artists-h2 {
-  text-align: left; }
+  text-align: left;
+  z-index: 2; }
 
 .booking-img {
   display: none; }
@@ -176,8 +195,10 @@ p {
   text-transform: uppercase;
   color: white;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 50px; }
+  margin: 0 auto 30px auto; }
+
+.artist-btn {
+  margin-top: 360px; }
 
 .contact-img-1 {
   display: none; }
