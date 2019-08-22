@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/270196945f.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Booking</title>
   </head>
@@ -15,21 +16,24 @@
       <img class="logo" src="images/logo.png" alt="logo">
 
         <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="artists.html">ARTISTS</a></li>
-            <li><a class="active" href="booking.html">BOOKING</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+          <div class="toggle">
+            <i class="fas fa-bars menu"></i>
+          </div>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="artists.html">ARTISTS</a></li>
+              <li><a href="booking.html">BOOKING</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </nav>
 
       </div>
     </header>
 
-    <h1>Book a Consultation</h1>
+    <h1>Booking Info</h1>
 
     <div class="booking-div">
-    <h2 class="booking-h2"> Booking Info </h2>
+    <!-- <h2 class="booking-h2"> Booking Info </h2> -->
 
     <h3>Walk Ins</h3>
     <p>We do walk in tattoos on the day whenever we can, the best thing to do is come into the shop for a quick chat and check our availability.</p>
@@ -41,10 +45,13 @@
     <p>16 years old is the youngest we will tattoo, any client under 18 must come in with a parent or guardian and both provide valid photo ID in order to complete a parental consent form.</p>
     </div>
 
-    <img class="booking-img"src="images/booking-1.png" alt="Mosiac of images at Union Tattoo">
-    <h2 class="booking-h2">Booking Form</h2>
 
-    <form>
+    <div class="booking--image--div">
+    <img class="booking-img" src="images/booking-1.png" alt="Mosiac of images at Union Tattoo">
+    </div>
+
+    <form class="booking--form">
+      <h2 class="booking-h2">Book A <br> Consultation</h2>
 
       <label for="name" class="form-name">Your Name&#42;</label>
       <input type="text" class="form-name-text">
@@ -64,5 +71,9 @@
     <footer>
       <p>&copy; 2019 Union Tattoo in Wellington. All Rights Reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
   </body>
 </html>
